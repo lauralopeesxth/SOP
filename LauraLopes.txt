@@ -1,0 +1,37 @@
+cd desktop
+dir]
+dir
+md backup
+cd backup
+echo Atividade01 >>nota01.txt
+echo Atividade01 >>nota02.txt
+dir
+fc nota01.txt nota02.txt
+cd ..
+md documentos
+md atividade01
+cd documentos
+md projetos
+md pessoais
+cd ..
+move backup documentos
+ren atividade01 trabalhos
+dir
+move trabalhos documentos
+documentos
+cd documentos
+dir
+ren pessoais lazer
+echo Portugal >>viagem.txt
+echo Russia >>viagem.txt
+echo Grecia >>viagem.txt
+echo Estados Unidos >>viagem.txt
+echo Inglaterra >>viagem.txt
+cd lazer
+dir
+cd ..
+dir
+move viagem.txt lazer
+cd lazer
+dir
+doskey/history >>LauraLopes.txt
